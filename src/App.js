@@ -1,7 +1,49 @@
+import Navbar from "./Components/Navbar"
+import Header from "./Components/Header"
 function App() {
   return (
     <div className="App">
-     <h1>Boxers Developement</h1>
+   <Navbar />
+   <Header />
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
+   <p>asdfasdfds asdfsadf asdfsadf asdfsdfsa asdf</p>
     </div>
   );
 }
