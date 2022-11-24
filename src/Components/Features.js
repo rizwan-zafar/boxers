@@ -28,7 +28,7 @@ export default function Features() {
                         <img src="/Images/software-img.png" className="img-fluid" alt="software" />
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-start">
-                        <h3 className="fw-bold head">OUR SOFTWARE FEATURES</h3>
+                        <h3 className="fw-bold head">MORE OF YOUR SOFTWARE</h3>
                         <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ul className="list-group">
                            <li className="p-2"> <CodeSquare className="style-icon"/> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>

@@ -3,6 +3,7 @@ import Header from "./Components/Header"
 import Attribute from "./Components/Attribute"
 import Features from "./Components/Features"
 import Pricing from "./Components/Pricing"
+import Download from "./Components/Download"
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
    <Attribute />
    <Features />
    <Pricing />
-   
+   <Download /> 
     </div>
   );
 }

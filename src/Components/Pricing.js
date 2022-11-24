@@ -4,6 +4,7 @@ export default function Pricing() {
     return (
         <div className="pricing initial">
             <div className="container custom-container">
+                <h2 className="text-center p-4 fw-bold">OUR PRICING</h2>
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 set-padding">
                         <div className="card h-100">
