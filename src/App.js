@@ -4,6 +4,7 @@ import Attribute from "./Components/Attribute"
 import Features from "./Components/Features"
 import Pricing from "./Components/Pricing"
 import Download from "./Components/Download"
+import Contact from "./Components/Contact"
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
    <Features />
    <Pricing />
    <Download /> 
+   <Contact />
     </div>
   );
 }

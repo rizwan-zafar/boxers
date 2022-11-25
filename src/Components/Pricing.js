@@ -1,12 +1,14 @@
 import React from 'react'
-
+import {motion} from "framer-motion"
 export default function Pricing() {
     return (
-        <div className="pricing initial">
+        <div className="pricing initial" id="pricing">
             <div className="container custom-container">
                 <h2 className="text-center p-4 fw-bold">OUR PRICING</h2>
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 set-padding">
+                    <motion.div whileInView={{y:0}} initial={{y:100}} transition={{ delay:0.2,duration:1}}>
+
                         <div className="card h-100">
                             <div className="card-top text-center">
                                 <h4><strong>BASIC PLAN</strong></h4>
@@ -21,10 +23,13 @@ export default function Pricing() {
                                 <button className="btn">SIGN UP</button>
                             </div>
                         </div>
+                        </motion.div>
                     </div>
 
 
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 set-padding">
+                    <motion.div whileInView={{y:0}} initial={{y:100}} transition={{ delay:0.5,duration:1}}>
+
                         <div className="card h-100">
                             <div className="card-top text-center">
                                 <h4><strong>BUSINESS PLAN</strong></h4>
@@ -39,9 +44,12 @@ export default function Pricing() {
                                 <button className="btn">SIGN UP</button>
                             </div>
                         </div>
+                        </motion.div>
                     </div>
 
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 set-padding">
+                    <motion.div whileInView={{y:0}} initial={{y:100}} transition={{ delay:0.8,duration:1}}>
+
                         <div className="card h-100">
                             <div className="card-top text-center">
                                 <h4><strong>PRO PLAN</strong></h4>
@@ -56,6 +64,7 @@ export default function Pricing() {
                                 <button className="btn">SIGN UP</button>
                             </div>
                         </div>
+                        </motion.div>
                     </div>
 
 

@@ -3,7 +3,9 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif !important;
 }
-
+ .active-nav{
+   color:#228dc7
+ }
 .initial {
   padding-top: 80px !important;
   padding-bottom: 80px !important;
@@ -36,6 +38,7 @@ body {
   text-transform: uppercase;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
 }
 
 /* Header */
@@ -70,66 +73,124 @@ body {
 }
 
 /* Features */
-.features{
+.features {
   background: #f8f8f8;
 }
-.second-section{
-  background:#fff;
+
+.second-section {
+  background: #fff;
 }
-.features ul li{
+
+.features ul li {
   list-style: none;
- }
-.features ul .style-icon
-{
+}
+
+.features ul .style-icon {
   font-size: 30px;
   background: #28a7e9;
-   color: white;
+  color: white;
 }
 
 /* Pricing */
-.pricing .card-top{
+.pricing .card-top {
   background: #28a7e9;
   color: #fff;
   font-weight: bold;
   padding: 30px;
 }
 
-.pricing .card{
-   border: 0;
+.pricing .card {
+  border: 0;
   box-shadow: 0px 0px 8px #9091928e;
 }
-.pricing .card .card-body .btn{
+
+.pricing .card .card-body .btn {
   border: 2px solid #28a7e9;
-    padding: px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 0;
-    font-weight: bold;
-    color: #28a7e9;
+  padding: px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0;
+  font-weight: bold;
+  color: #28a7e9;
 }
-.pricing .card .card-body .btn:hover{
+
+.pricing .card .card-body .btn:hover {
   background: #28a7e9;
   color: white;
   transition: all 1s;
 }
+
 /* Download */
-.download .row .btn{
-    border: 2px solid #28a7e9;
-    background:  #28a7e9;
-    padding: px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 0;
-    font-weight: bold;
-    color: #fff;
+.download .row .btn {
+  border: 2px solid #28a7e9;
+  background: #28a7e9;
+  padding: px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 0;
+  font-weight: bold;
+  color: #fff;
 
 }
-.download .row .btn:hover{
-  border: 2px solid #238fc9;;
-  background:  #238fc9;
-  
 
+.download .row .btn:hover {
+  border: 2px solid #238fc9;
+  ;
+  background: #238fc9;
 }
+
+/* Header */
+.contact .back-image {
+  background-image: url('/public/Images/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact .overlay {
+  width: auto;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.contact ul .style-icon {
+  font-size: 30px;
+  background: #28a7e9;
+  border-radius: 10px;
+  color: white;
+  padding: 6px;
+}
+
+.contact .set-form {
+  color: #fff;
+  /* margin-top: 8%; */
+}
+
+.contact .btn {
+  border: 2px solid #28a7e9;
+  background: #28a7e9;
+  padding: px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact .btn:hover {
+  border: 2px solid #228dc7;
+  background: #228dc7;
+}
+
+.contact {
+  padding-top: 80px !important;
+}
+
 @media (min-width: 1200px) {
   .nav-container .container {
     max-width: 1032px;
@@ -154,6 +215,7 @@ body {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
+
   /* navbar */
   .nav-container .navbar-nav {
     border-top: 2px solid beige;
@@ -162,30 +224,34 @@ body {
   .nav-container .navbar .container {
     max-width: 100%;
   }
-
-  .nav-container ul li {
-    padding: 10px;
+  .setVisible{
+    visibility: hidden;
+  
   }
 
   /* header */
   .header .carousel-caption p {
     font-size: 13px;
   }
- .features .row  .head{
-   text-align: center !important; 
-   padding-top: 30px;
-   padding-bottom: 30px;
+
+  .features .row .head {
+    text-align: center !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   /* Pricing */
-  .pricing  .set-padding{
+  .pricing .set-padding {
     margin-top: 30px !important;
-   }
+  }
 
-   /* Download */
-   .download .row .second-col
-   {
-     padding-top: 70px;
-   }
+  /* Download */
+  .download .row .second-col {
+    padding-top: 70px;
+  }
+
+  .contact .set-padding {
+    margin-top: 20px;
+  }
 
 }
