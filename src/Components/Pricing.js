@@ -56,7 +56,7 @@ export default function Pricing() {
                                 <h5>$30</h5>
                                 <small>monthly</small>
                             </div>
-                            <div className="card-body text-center p-4">
+                            <div className="card-body text-center">
                                 <p className="card-text p-3">10 GB SPACE</p>
                                 <p className="card-text p-3">1000 GB BANDWIDTH</p>
                                 <p className="card-text p-3">100 MORE THEMES</p>

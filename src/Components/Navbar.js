@@ -6,13 +6,13 @@ export default function Navbar() {
     const [pricingActive, setPricingActive] = React.useState('');
     const [downloadActive, setDownloadActive] = React.useState('');
     const [contactActive, setContactActive] = React.useState('');
-    const [mobileMenuClose,setMobileMenuClose]=React.useState("visible")
+    const [mobileMenuClose, setMobileMenuClose] = React.useState("visible")
 
     const ActiveHandler = (value) => {
-      setMobileMenuClose("setVisible")
-    
- 
-         if (value === 'home') {
+        setMobileMenuClose("setVisible")
+
+
+        if (value === 'home') {
             setHomeActive('active')
             setFeaturesActive('')
             setPricingActive('')
@@ -60,7 +60,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <a className="navbar-brand" href="/">Boxer</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={() => {setMobileMenuClose(); }} data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={() => { setMobileMenuClose(); }} data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className={`collapse navbar-collapse mt-2  ${mobileMenuClose}`} id="navbarNav">
